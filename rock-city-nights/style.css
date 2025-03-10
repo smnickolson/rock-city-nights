@@ -100,3 +100,20 @@ footer p {
         padding: 15px;
     }
 }
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+/* Apply font to all <h2> elements */
+h1, h2 {
+    font-family: "New Rocker", cursive; 
+    font-weight: 400; color: red;
+    font-style: normal;
+}
+
+main h2 {color: red;}
+
+.special-heading {color: red; font-size: 18px}
+
+nav ul li {color: red;}
+
