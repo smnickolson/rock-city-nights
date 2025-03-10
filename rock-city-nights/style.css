@@ -15,6 +15,13 @@ body {
 
 /* Styling the header */
 header {
+    background-image: url('path/to/your/image.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    color: white; /* Make text stand out */
+    text-align: center; /* Center align text inside header */
+    padding: 100px 20px; /* Add padding for content inside header */
     background-color: #333;
     color: white;
     text-align: center;
@@ -22,7 +29,11 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3.0rem;
+}
+
+header p {
+    font-size: 1.2em;
 }
 
 /* Styling the navigation */
